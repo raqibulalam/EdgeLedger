@@ -1,0 +1,74 @@
+#what .items{
+    display: block;
+    padding: 1rem;
+}
+
+
+/*align item to left*/
+#what .items .item{
+    display: flex;
+    text-align: left;
+}
+#what .items .item i{
+    margin-right: 1.3rem;
+    align-self: center;
+    margin-bottom: 0;
+}
+.l-heading{
+    font-size: 2rem;
+    margin-bottom: 0.75rem;
+    line-height: 1;
+}
+#showcase .showcase-content p{
+    font-size: 1rem;
+    }
+    .btn{
+        display: inline-block;
+        color: #ffffff;
+        background: #93cb52;
+         padding: 0.5rem 2rem;
+         border: none;
+         border-radius: 5px;
+         font-size: 1rem;
+    }
+@media(max-width: 500px){
+    #nav-bar{
+        flex-direction: column;
+        align-items: center;
+    }
+    #nav-bar .logo{
+        margin-bottom: 0.5rem;
+        text-align: center;
+    }
+    #nav-bar ul{
+        padding: 0.5rem;
+    }
+   #showcase .showcase-content{
+       top: 110px;
+   }
+  
+   #who{
+       display: block;
+   }
+#who .img{
+    display: none;
+}
+#clients .items img{
+width: 80%;
+}
+#clients .items div:last-child{
+    display: none;
+}
+#contact{
+    flex-direction: column;
+}
+#contact .map{
+    overflow: auto;
+    height: 200px;
+    border-top: 4px solid #333333;
+    flex-basis: 50%;
+}
+
+  
+}
+
